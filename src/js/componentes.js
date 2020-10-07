@@ -3,11 +3,13 @@ import { todoList } from '../index.js';
 
 
 // Referencias en el HTML
-const divTodoList   = document.querySelector( '.todo-list' ),
-      txtInput      = document.querySelector( '.new-todo' ),
-      btnBorrar     = document.querySelector( '.clear-completed' ),
-      ulFiltros     = document.querySelector( '.filters' ),
-      anchorfiltros = document.querySelectorAll( '.filtro' );
+const divTodoList       = document.querySelector( '.todo-list' ),
+      txtInput          = document.querySelector( '.new-todo' ),
+      btnBorrar         = document.querySelector( '.clear-completed' ),
+      ulFiltros         = document.querySelector( '.filters' ),
+      anchorfiltros     = document.querySelectorAll( '.filtro' );
+
+export const countPendientes   = document.querySelector( '.todo-count strong' );
 
 
 // Esta función crea y retorna el todo en html
